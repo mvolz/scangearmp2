@@ -3,17 +3,17 @@
 
 # DESCRIPTION
 
-	Because of changes in CANON's network communication protocols,some of CANON's scanner 
-	became unsuported by sane.
+	Because of changes in CANON's network communication protocols, some of CANON's scanner 
+	became unsupported by sane.
 
 	This backend is for making the CANON's scanners, using the new communication protocol,
-	to be supported by sane and any of the frontends implementing sane. It reuse the code 
-	of the scangearmp2 program to access to the scanners functionalities and implementing 
+	to be supported by sane and any of the frontends implementing sane. It reuses the code 
+	of the scangearmp2 program to access to the scanner's functionalities and implement 
 	the sane functions.
 
-	It was done as a patch to have a minimun impact on the orginal scangearmp2 source code,
-	but currently we choose to abandon this idea because it was difficult to make the 
-	releases and had not that much interrest for the developement.
+	It was originally done as a patch to have a minimal impact on the orginal scangearmp2 source code,
+	but we choose to abandon this idea because it was difficult to make the 
+	releases, and there was not that much interest in its development.
 	
 	For ubuntu-based distributions: https://launchpad.net/~thierry-f/+archive/ubuntu/fork-michael-gruz
 
@@ -144,7 +144,7 @@ Requirements for scangearmp2 in : scangearmp2/README.md
 ```
 git clone https://github.com/Ordissimo/scangearmp2.git
 ```
-###### Get developement environnement :
+###### Get development environment :
 ```
 apt-get update
 apt-get install debhelper libglib2.0-dev libgtk2.0-dev libusb-1.0-0-dev libtool-bin libjpeg-dev
@@ -166,7 +166,7 @@ dpkg -i ../scangearmp2_3.90-1_amd64.deb
 ```
 ## For redhat systems :
 
-###### Get developement environnement :
+###### Get development environment :
 ```
 yum install gtk2-devel
 yum install libusb-devel
